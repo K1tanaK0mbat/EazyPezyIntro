@@ -1,6 +1,22 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// const license = data.license;
+// function renderLicenseBadge(badge) {
+//     switch (license){
+//     case 'MIT':
+//         badge= URL(https://img.shields.io/badge/License-Apache_2.0-blue.svg),
+//         break;
+//       case 'GNU':
+//         console.log(maths.difference(numOne, numTwo));
+//         break;
+//       case 'Creative Commons':
+//         console.log(maths.product(numOne, numTwo));
+//         break;
+//       case 'Apache':
+//         console.log(maths.quotient(numOne, numTwo));
+//         break;
+//     }
+// }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
