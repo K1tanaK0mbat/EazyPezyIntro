@@ -11,9 +11,12 @@ const questions = [
         "Tell other users how to contribute to continued development",
         "Test Instructions",
         "What type of license for your project?",
+        "Your Github username @ link to profile",
+        "Your email with instuctions on how to contact you",
+
 ];
 
-const [title, description, installation, usage, contribution, test, license]= questions;
+const [title, description, installation, usage, contribution, test, license, username, email]= questions;
 
 const choices= [
     "MIT",
@@ -74,6 +77,16 @@ function init()
     message:license,
     choices:choices,
 
+},
+{
+    type:'input',
+    name:'username',
+    message:username,
+},
+{
+    type:'input',
+    name:'email',
+    message:email,
 },
 ])
 .then((data) => {
