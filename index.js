@@ -9,11 +9,30 @@ const questions = [
          "Provide Instructions for installation",
          "Explain how to use application",
         "Tell other users how to contribute to continued development",
-        "Test Instructions"
+        "Test Instructions",
+        "What type of license for your project?",
 ];
 
-const [title, description, installation, usage, contribution, test]= questions;
+const [title, description, installation, usage, contribution, test, license]= questions;
 
+const choices= [
+    "MIT",
+    "GNU General Public License v3.0",
+    "Apache License 2.0",
+    "ISC",
+    "GNU General Public License v2.0 ",
+    "Creative Commons Zero v1.0 Uni",
+    "Creative Commons Attribution 4.0 International",
+    "SIL Open Font License 1.1",
+    "CERN-OHL-P-2.0", 
+    "CERN-OHL-W-2.0",
+    "CERN-OHL-S-2.0",
+    "The Unilicense",
+    "Boost Software License 1.0",
+    "Eclipse Public License 2.0",
+    "Mozilla Public License 2.0",
+
+];
 
 // TODO: Create a function to initialize app
 function init() 
@@ -48,6 +67,13 @@ function init()
     type:'input',
     name:'test',
     message:test,
+},
+{
+    type:'list',
+    name:'license',
+    message:license,
+    choices:choices,
+
 },
 ])
 .then((data) => {
