@@ -32,7 +32,7 @@ const choices= [
     "Eclipse Public License 2.0",
     "Mozilla Public License 2.0",
 
-]
+];
 
 // TODO: Create a function to initialize app
 function init() 

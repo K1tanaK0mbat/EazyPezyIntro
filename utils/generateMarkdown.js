@@ -19,10 +19,13 @@ function generateMarkdown(data) {
  ${data.install}
  ## Usage
  ${data.usage}
+ ## License
+ ${data.license}
 ## Contribution
 ${data.contribute}
 ## Test
 ${data.test}
+
 `;
 }
 
