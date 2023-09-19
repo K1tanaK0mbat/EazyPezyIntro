@@ -25,7 +25,8 @@ ${data.license}
 ${data.contribute}
 ## Test
 ${data.test}
-
+## Questions
+My Github is ${data.username} and my email is ${data.email}
 `;
 }
 

@@ -1,14 +1,15 @@
-# Test1
+# Test2
 ## Description
- Testing license code
- ## Installation
- Npm install and init
- ## Usage
- Respond in terminal
- ## License
- ISC
+Added contact info
+## Installation
+Terminal
+## Usage
+Run node
+## License
+MIT
 ## Contribution
-Ask
+Xall me
 ## Test
-run node
 
+## Questions
+My Github is K1tanaK0mbat https://github.com/K1tanaK0mbat and my email is Kitanak365@gmail,email me in the morning or at night
