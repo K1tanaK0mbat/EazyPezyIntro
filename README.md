@@ -1,15 +1,15 @@
-# Test2
+# Test 4
 ## Description
-Added contact info
+Tests license link
 ## Installation
-Terminal
+choose license
 ## Usage
-Run node
+Choose license
 ## License
-MIT
+For this project, I license my work under the ISC License.License info is here https://choosealicense.com/licenses/isc/
 ## Contribution
-Xall me
+Type
 ## Test
-
+Terminal
 ## Questions
-My Github is K1tanaK0mbat https://github.com/K1tanaK0mbat and my email is Kitanak365@gmail,email me in the morning or at night
+My Github is Kitana git and my email is kitanak365
