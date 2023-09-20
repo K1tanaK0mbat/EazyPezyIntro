@@ -34,6 +34,7 @@ const choices= [
     "Boost Software License 1.0",
     "Eclipse Public License 2.0",
     "Mozilla Public License 2.0",
+    "None",
 
 ];
 
