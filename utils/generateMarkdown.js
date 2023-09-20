@@ -2,22 +2,50 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 // const license = data.license;
-// function renderLicenseBadge(badge) {
-//     switch (license){
-//     case 'MIT':
-//         badge= URL(https://img.shields.io/badge/License-Apache_2.0-blue.svg),
-//         break;
-//       case 'GNU':
-//         console.log(maths.difference(numOne, numTwo));
-//         break;
-//       case 'Creative Commons':
-//         console.log(maths.product(numOne, numTwo));
-//         break;
-//       case 'Apache':
-//         console.log(maths.quotient(numOne, numTwo));
-//         break;
-//     }
-// }
+function renderLicenseBadge(license) {
+    switch (license) {
+        case 'MIT':
+            Badge = 'https://img.shields.io/badge/License-MIT-yellow.svg';
+            break;
+        case 'ISC':
+            Badge = 'https://img.shields.io/badge/License-ISC-blue.svg';
+            break;
+            case 'None':
+            Badge='no license';
+            break;
+              case 'GNU General Public License v3.0':
+            Badge = 'https://img.shields.io/badge/License-GPLv3-blue.svg';
+            break;
+            case 'Apache License 2.0':
+                Badge = 'https://img.shields.io/badge/License-Apache_2.0-blue.svg';
+                break;
+            case 'GNU General Public License v2.0':
+            Badge='https://img.shields.io/badge/License-GPL_v2-blue.svg';
+            break;
+            case 'Creative Commons Zero v1.0 Uni':
+                Badge='https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg';
+                break;
+            case 'Creative Commons Attribution 4.0 International':
+            Badge='https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg';
+                break;
+                case 'BSD 2-Clause License':
+            Badge='https://img.shields.io/badge/License-BSD_2--Clause-orange.svg';
+                break;
+                case 'The Unilicense':
+           Badge ='https://img.shields.io/badge/license-Unlicense-blue.svg';
+                break;
+                case 'Boost Software License 1.0':
+            Badge ='https://img.shields.io/badge/License-Boost_1.0-lightblue.svg';
+                break;
+                case 'Eclipse Public License 2.0':
+            Badge='https://img.shields.io/badge/License-EPL_1.0-red.svg';
+                break;
+                case 'Mozilla Public License 2.0':
+            Badge='https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg';
+                break;
+    }
+return Badge;
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -83,8 +111,9 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+    const Badge=renderLicenseBadge(data.license);
     const licenseSection = renderLicenseSection(data.license);
-return  `# ${data.title}
+return  `# ${data.title}  + ${Badge}
 ## Description
 ${data.describe}
 ## Installation
