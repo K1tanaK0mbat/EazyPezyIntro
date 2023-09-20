@@ -18,7 +18,36 @@ function renderLicenseLink(license){
             case 'None':
             licenseLink='no license';
             break;
-                
+              case 'GNU General Public License v3.0':
+            licenseLink = 'https://choosealicense.com/licenses/gpl-3.0/';
+            break;
+            case 'Apache License 2.0':
+                licenseLink = 'https://choosealicense.com/licenses/apache-2.0/';
+                break;
+            case 'GNU General Public License v2.0':
+            licenseLink='https://choosealicense.com/licenses/gpl-2.0/';
+            break;
+            case 'Creative Commons Zero v1.0 Uni':
+                licenseLink='https://choosealicense.com/licenses/cc0-1.0/';
+                break;
+            case 'Creative Commons Attribution 4.0 International':
+            licenseLink='https://choosealicense.com/licenses/cc-by-4.0/';
+                break;
+                case 'BSD 2-Clause License':
+            licenseLink='https://opensource.org/license/bsd-2-clause/';
+                break;
+                case 'The Unilicense':
+            licenseLink='https://choosealicense.com/licenses/unlicense/';
+                break;
+                case 'Boost Software License 1.0':
+            licenseLink='https://choosealicense.com/licenses/bsl-1.0/';
+                break;
+                case 'Eclipse Public License 2.0':
+            licenseLink='https://www.eclipse.org/legal/epl-2.0/';
+                break;
+                case 'Mozilla Public License 2.0':
+            licenseLink='https://choosealicense.com/licenses/mpl-2.0/';
+                break;
     }
 
     return licenseLink;
