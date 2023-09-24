@@ -113,19 +113,30 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
     const Badge=renderLicenseBadge(data.license);
     const licenseSection = renderLicenseSection(data.license);
+
 return  `# ${data.title} ${Badge}
   
 ## Description
 ${data.describe}
-## Installation
+
+## Table of Contents
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contribution](#contribution)
+6. [Test](#test)
+7. [Questions](#questions)
+
+## Installation 
 ${data.install}
-## Usage
+## Usage 
 ${data.usage}
-## License
+## License 
 ${licenseSection}
 ## Contribution
 ${data.contribute}
-## Test
+## Test 
 ${data.test}
 ## Questions
 My Github is ${data.username} and my email is ${data.email}
