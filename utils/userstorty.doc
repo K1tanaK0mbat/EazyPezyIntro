@@ -1,9 +1,0 @@
-
-
-
-
-
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-
-To Do: Turn description and question elements of array into const with the 2 questions in it
