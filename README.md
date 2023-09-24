@@ -4,13 +4,15 @@
 I created this project to give programmers an application that will use the precoded template and their responses to create a new README. This provides students with a completed and well structured README that'll contain all necessary information regarding the purpose of the project and how to use it. In addition, users will no longer have to search the documentation  of how to write a README file again.
 
 ## Table of Contents
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [License](#license)
-5. [Contribution](#contribution)
-6. [Test](#test)
-7. [Questions](#questions)
+- [Easy README Creator ](#easy-readme-creator-)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Test](#test)
+  - [Questions](#questions)
 
 ## Installation 
 To install this application, download the zip file from the GitHub repo onto your computer. Once it is downloaded, open the file in VSCode or another code editing program. Within the terminal start the application by typing npm install. Afterwards, type npm init -y to start running the node process and downlaod inquirer. 
